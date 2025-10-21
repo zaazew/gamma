@@ -3,9 +3,15 @@ header{
 }
 .header-sinxro{
     width: 112px;
-    height: 66px;
-    
+    height: 66px;   
 }
+
+.header-flex{
+    margin-top: 100px;
+    display: flex;
+    gap: 55px;
+}
+
 
 .header-photo{
     width: 22px;
@@ -14,7 +20,43 @@ header{
 }
 .header-text{
     font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
 }
 main{
     margin: 21px 0 0 121px;
 }
+
+.section1{
+    display: flex;
+    gap:150px;
+    
+}
+.main-text-bold{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 10px;
+   
+}
+.main-paragraph{
+    font-size: 20px;
+}
+.fmain-text{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.oturan-cameraman{
+    width: 305px;
+    height: 376px;
+}
+
+.blue-img{
+    width: 483.63px;
+    height: 200.02px;
+    margin:100px 0 0 270px;
+    
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
