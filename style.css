@@ -1,122 +1,346 @@
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color: #000000;
   background-color: #FFFFFF;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 /* header */
 .about {
-  padding: 60px 80px;
+  padding: 80px 100px;
 }
 
 .about-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 40px;
+  gap: 60px;
 }
 
 .text-section {
   flex: 1;
   max-width: 600px;
-  font-size: 24px;
 }
 
-.text-section h2 {
-  font-size: 55px;
-  margin-bottom: 20px;
-}
 
-.text-section p {
-  margin-bottom: 16px;
-  color: #444;
-}
 
-.image-section img {
-  width: 380px;
-  height: auto;
-}
 
-/* middle */
+
+
+/* 8 занятий / 2 часа / 3 недели */
 .course-info {
-  padding: 40px 80px;
+  padding: 60px 100px;
 }
 
 .info-container {
   display: flex;
-  justify-content: space-between;
-  text-align: center;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 20px;
 }
 
+
+
+
+/* 3 info blocks  */
 .info-box {
+  text-align: center;
   flex: 1;
 }
 
-.info-box img {
-  width: 80px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.info-box h3 {
-  font-size: 25px;
-  margin-bottom: 8px;
-}
-
-.info-box p {
-  font-size: 18px;
-  color: #000000;
-
-}
 
 /* format */
 .format {
-  padding: 60px 80px;
+  padding: 80px 100px;
 }
 
-.format h2 {
-  font-size: 55px;
-  margin-bottom: 30px;
-}
+
 
 .format-container {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  color: #1E4681;
+  gap: 40px;
+  text-align: center;
 }
 
 .format-box {
   flex: 1;
   background-color: #FFFFFF;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
 }
 
-.format-box h4 {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
 
-.format-box p {
-  color: #000000;
-  font-size: 18px;
-}
 
-/* phone */
-@media(max-width: 600px){
-    
-}
 
-/* tablet */
-@media(min-width: 601px) and (max-width: 1024px){
-
-}
 
 /* desktop */
-@media(min-width: 1025px){
+@media (min-width: 1024px) and (max-width: 2100px) {
+  .about-container {
+    flex-direction: row;
+  }
 
+  .info-container {
+    flex-direction: row;
+  }
+
+  .format-container {
+    flex-direction: row;
+  }
+
+  .text-section h2 {
+  font-size: 55px;
+  font-weight: 365;
+  height: 93px;
+  margin-bottom: 20px;
+  }
+
+  .text-section p {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  font-weight: 662px;
+  height: 374px;
+}
+.info-box h3 {
+  font-size: 25px;
+  font-weight: 150px;
+  height: 39px;
+  margin-bottom: 6px;
+}
+.info-box p {
+  font-weight: 150px;
+  height: 39px;
+  font-size: 18px;
+  color: #000000;
+}
+.format h2 {
+  font-size: 55px;
+  font-weight: 667px;
+  height: 93px;
+  margin-bottom: 40px;
+}
+.format-box h4 {
+  font-weight: 150px;
+  height: 39px;
+  font-size: 25px;
+  color: #1E4681;
+  margin-bottom: 10px;
+}
+.format-box p {
+  font-weight: 223px;
+  height: 39px;
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.image-section img {
+  width: 314px;
+  height: 315px;
+}
+
+.info-container > img {
+  width: 232px;
+  height: 203px;
+}
+}
+
+
+
+
+/* tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .about {
+    padding: 60px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .format-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+
+
+
+.text-section h2 {
+  font-size: 32px;
+  font-weight: 211.4px;
+  height: 53.86px;
+  margin-bottom: 20px;
+  }
+
+  .text-section p {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  font-weight: 383.41px;
+  height: 216.61px;
+}
+.info-box h3 {
+  font-size: 15px;
+  font-weight: 86.88px;
+  height: 22.59px;
+  margin-bottom: 6px;
+}
+.info-box p {
+  font-weight: 86.88px;
+  height: 22.59px;
+  font-size: 11px;
+  color: #000000;
+}
+.format h2 {
+  font-size: 32px;
+  font-weight: 386.3px;
+  height: 53.86px;
+  margin-bottom: 40px;
+}
+.format-box h4 {
+  font-weight: 123.94px;
+  height: 22.59px;
+  font-size: 15px;
+  color: #1E4681;
+  margin-bottom: 10px;
+}
+.format-box p {
+  font-weight: 172px;
+  height: 63px;
+  font-size: 11px;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.image-section img {
+  width: 181.86px;
+  height: 182.44px;
+}
+
+.info-container > img {
+  width: 134.37px;
+  height: 117.57px;
+}
+}
+
+
+
+/* phone */
+@media (min-width: 300px) and (max-width: 600px) {
+  .about {
+    padding: 40px 20px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section h2 {
+    font-size: 30px;
+  }
+
+  .text-section p {
+    font-size: 16px;
+  }
+
+  .image-section img {
+    width: 250px;
+  }
+
+  .course-info {
+    padding: 40px 20px;
+  }
+
+  .info-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .info-box h3 {
+    font-size: 18px;
+  }
+
+  .format {
+    padding: 40px 20px;
+  }
+
+  .format h2 {
+    font-size: 32px;
+  }
+
+  .format-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+
+
+  .text-section h2 {
+  font-size: 26px;
+  font-weight: 170.08px;
+  height: 43.34px;
+  margin-bottom: 20px;
+  }
+
+  .text-section p {
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  font-weight: 308.47px;
+  height: 174.27px;
+}
+.info-box h3 {
+  font-size: 12px;
+  font-weight: 69.9px;
+  height: 18.17px;
+  margin-bottom: 6px;
+}
+.info-box p {
+  font-weight: 86.89px;
+  height: 18.5px;
+  font-size: 10px;
+  color: #000000;
+}
+.format h2 {
+  font-size: 26px;
+  font-weight: 318px;
+  height: 43.34px;
+  margin-bottom: 40px;
+}
+.format-box h4 {
+  font-weight: 69.9px;
+  height: 18.17px;
+  font-size: 12px;
+  color: #1E4681;
+  margin-bottom: 10px;
+}
+.format-box p {
+  font-weight: 180px;
+  height: 48px;
+  font-size: 10px;
+  color: #000000;
+  line-height: 1.6;
+}
+
+
+.image-section img {
+  width: 170.55px;
+  height: 160.29px;
+}
 }
