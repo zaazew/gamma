@@ -258,47 +258,46 @@
  
  
  
-  .footer-section {
-    padding: 6vw 8vw;
-    
+  .footer-container {
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
   }
 
   .footer-left {
-    max-width: 30vw;
-    margin-left: 3vw;
+    align-items: start;
   }
 
-  .footer-logo {
-    width: 10vw;
-    margin-bottom: 2.5vw;
-  }
-
-  .social-icons {
-    gap: 2vw;
-    margin-bottom: 4vw;
-  }
-
-  .social-icons img {
-    width: 2vw;
-    height: 2vw;
-  }
-
-  .footer-right p {
-    font-size: 1.8vw;
-    gap: 2vw;
-  }
-
-  .footer-right img {
-    width: 1vw;
-    height: 1vw;
+  .footer-right {
+    align-items: start;
+    margin-top: -10vw;
+    margin-bottom: 10vw;
   }
 
   .footer-copy {
-    top: 2.5vw;
-    font-size: 1vw;
-    text-align: start;
+    margin-top: 15vw;
+    font-size: 1.5vw;
+  }
+
+  .social-icons {
+    justify-content: start;
+    gap: 3vw
+
+  }
+  .footer-right p {
+    font-size: 3vw;
+  }
+  .social-icons img {
+  width: 3vw;
+  height: 3vw;
+  
+  }
+  .footer-logo {
+  width: 15vw;
+  height: 10vw;
   }
 }
+
 
 
 
