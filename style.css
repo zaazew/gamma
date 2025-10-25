@@ -67,7 +67,7 @@ body {
 
 /* desktop */
 
-@media (min-width: 1025px) {
+@media (min-width: 993px) {
   .about-container,
   .info-container,
   .format-container {
@@ -136,7 +136,7 @@ body {
 
 /* tablet */
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .about {
     padding: 4.2vw;
   }
@@ -213,7 +213,7 @@ body {
 
 /* phone */
 
-@media (max-width: 600px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .about {
     padding: 2.8vw 1.4vw;
   }
