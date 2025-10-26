@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
@@ -177,10 +178,10 @@ main{
 
 
 
-@media screen and (min-width: 993px) and (max-width: 2100px ){
+@media screen and (min-width: 993px) and (max-width: 2144px ){
 
      header{
- margin: 3vw 10vw 0 10vw; 
+ margin: 3vw 10vw 0 7vw; 
         width: auto;  }
 
 .header-sinxro{
@@ -225,8 +226,7 @@ main{
     gap: 10px;
 }
  main{
-
-  margin: 3vw 10vw 0 10vw;  
+  margin: 3vw 10vw 0 7vw;  
         width: auto;   }
  
 
@@ -274,17 +274,42 @@ main{
     
 
 }
-@media screen and (min-width: 993px) and (max-width: 1290px ){
+
+@media screen and (min-width: 993px) and (max-width: 1170px ){
+    .aseated-cameraman {
+    width: 50vw;
+    max-width:  250px;
+    height: auto;}
+
+    .blue-img {
+    margin: 55px 0 0 0;
+    width: 55%;
+   
+    
+} 
+    
+
+
+}
+
+@media screen and (min-width: 1171px) and (max-width: 1440px ){
     .aseated-cameraman {
     width: 50vw;
     max-width: 280px;
     height: auto;
-
-  
     
 }
+   .blue-img {
+    margin: 55px 0 0 0;
+    width: 50%;
+   
+    
+} 
+ 
 
 }
+
+
 
 @media screen and (min-width: 1700px)  and (max-width: 2100px ) {
         .section1{
@@ -298,7 +323,326 @@ main{
 
 
 
-/*----------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------ali*/
+body {
+
+  color: #000;
+  background-color: #fff;
+  line-height: 1.6;
+
+}
+
+/* header */
+
+.about {
+  padding: 50px 60px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text-section {
+  flex: 1;
+  min-width: 280px;
+}
+
+.text-section h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #000;
+  line-height: 1.7;
+}
+
+.image-section img {
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* kurs haqda melumatlar olan hisse */
+.course-info {
+  padding: 40px 60px;
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.info-container > img {
+  width: 180px;
+  height: auto;
+}
+
+.info-box h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.info-box p {
+  font-size: 16px;
+  color: #000;
+}
+
+/* format olan hisse */
+
+.format {
+  padding: 50px 60px;
+  text-align: center;
+}
+
+.format h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.format-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.format-box {
+  flex: 1;
+  min-width: 250px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.format-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1E4681;
+  margin-bottom: 10px;
+}
+
+.format-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000;
+}
+
+
+
+/* desktop hissesi */
+
+@media (max-width: 992px) and (min-width: 2100px) {
+  .about, .course-info, .format {
+    padding: 40px 30px;
+  }
+ 
+
+  .about-container, 
+  .info-container, 
+  .format-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section h2 {
+    font-size: 55px;
+  }
+
+  .text-section p {
+    font-size: 24px;
+  }
+
+  .info-box h3 {
+    font-size: 25px;
+  }
+
+  .info-box p {
+    font-size: 18px;
+  }
+
+  .format h2 {
+    font-size: 55px;
+  }
+
+  .format-box h4 {
+    font-size: 25px;
+  }
+
+  .format-box p {
+    font-size: 18px;
+  }
+
+  .image-section img {
+    width: 314px;
+  }
+
+  .info-container > img {
+    width: 232px;
+  }
+}
+
+
+/* tablet hissesi */
+
+@media (max-width: 992px) and (min-width: 769px) {
+  .about, .course-info, .format {
+    padding: 30px 20px;
+  }
+
+  .about-container, 
+  .info-container, 
+  .format-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section h2 {
+    font-size: 32px;
+  }
+
+  .text-section p {
+    font-size: 14px;
+  }
+
+  .info-box h3 {
+    font-size: 15px;
+  }
+
+  .info-box p {
+    font-size: 11px;
+  }
+
+  .format h2 {
+    font-size: 32px;
+  }
+
+  .format-box h4 {
+    font-size: 15px;
+  }
+
+  .format-box p {
+    font-size: 11px;
+  }
+
+  .image-section img {
+    width: 181.86px;
+  }
+
+  .info-container > img {
+    width: 134.37px;
+  }
+}
+
+/* phone hissesi */
+
+@media (min-width:576px)and (max-width: 768px) {
+  .about, .course-info, .format {
+    padding: 20px 15px;
+  }
+
+  .text-section h2 {
+    font-size: 26px;
+  }
+
+  .text-section p {
+    font-size: 12px;
+  }
+
+  .info-box h3 {
+    font-size: 12px;
+  }
+
+  .info-box p {
+    font-size: 10px;
+  }
+
+  .format h2 {
+    font-size: 26px;
+  }
+
+  .format-box h4 {
+    font-size: 12px;
+  
+  }
+
+  .format-box p {
+    font-size: 10px;
+  }
+
+  .image-section img {
+    width: 170.55px;
+  }
+
+  .info-container > img {
+    display: none; 
+  }
+
+  .format-container {
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+   .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .info-container > .info-box:nth-child(1) { 
+    order: 1;
+    width: 50%;
+  }
+
+  .info-container > .info-box:nth-child(2) { 
+    order: 2;
+    width: 50%;
+   
+  }
+
+  .info-container > .info-box:last-child { 
+    order: 3;
+    width: 50%;
+    margin-right: 400px;
+  }
+
+  .format-box {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------chinara-----------------------------*/
+
+
+
+
+
 
 
 
