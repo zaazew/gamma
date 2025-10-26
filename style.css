@@ -1045,7 +1045,6 @@ li {
   }
 
   .footer-author {
-    flex-direction: start;
     gap: 3vw;
   }
 
