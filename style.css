@@ -918,6 +918,13 @@ li {
   display: flex;
   flex-direction: column;
   gap: 3.6vw;
+
+  
+}
+.course-price{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .course-price .price-label {
@@ -938,7 +945,8 @@ li {
 .course-details {
   display: flex;
   gap: 4.45vw;
-  margin-bottom: 4vw
+  margin-bottom: 4vw;
+  text-align:left;
 }
 
 .course-details h3 {
@@ -954,7 +962,9 @@ li {
   color: #000;
   width: 15.3vw;
 }
-
+.course-access{
+  text-align:left;
+}
 
 
 .footer-section {
