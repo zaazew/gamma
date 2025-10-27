@@ -710,7 +710,7 @@ body {
     }
 
     .col-md-4 .card {
-        width: 20px;
+        width: 240px;
         height: 189px;
         border-radius: 18px;
     }
@@ -741,8 +741,6 @@ body {
 
 @media only screen and (max-width: 768px) {
     .col-md-12 {
-        /* display: flex;
-        justify-content: center; */
         margin-bottom: 20px;
     }
 
@@ -756,10 +754,10 @@ body {
 
     .col-md-4 .card {
         width: 185px;
-        height: 165px;
+        height: 160px;
     }
 
-    card .card-image {
+    .card .card-image {
         height: 74px;
     }
 
@@ -768,7 +766,7 @@ body {
     }
 
     .card-title {
-        height: 20px;
+        height: 12px;
     }
 
     .card-text h6 {
