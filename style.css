@@ -348,7 +348,11 @@ body {
   gap: 40px;
   flex-wrap: wrap;
 }
-
+.col-md-6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .text-section {
   flex: 1;
   min-width: 280px;
@@ -389,7 +393,7 @@ body {
   margin-top: 20px;
 }
 
-.info-container > img {
+.col-md-3  img {
   width: 180px;
   height: auto;
 }
@@ -422,20 +426,20 @@ body {
 .format-container {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  /* gap: 30px; */
   flex-wrap: wrap;
 }
 
 .format-box {
-  flex: 1;
+  /* flex: 1; */
   min-width: 250px;
   background-color: #fff;
-  padding: 25px;
+  /* padding: 25px; */
   border-radius: 10px;
   text-align: left;
 }
 
-.format-box h4 {
+h4 {
   font-size: 20px;
   font-weight: 600;
   color: #1E4681;
@@ -452,11 +456,27 @@ body {
 
 /* desktop hissesi */
 
-@media (max-width: 992px) and (min-width: 2100px) {
+@media (min-width: 993px) and (max-width: 2100px) {
   .about, .course-info, .format {
     padding: 40px 30px;
   }
  
+  format-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px; 
+  flex-wrap: wrap;
+}
+
+
+.format-box {
+  flex: 1;
+  min-width: 250px;
+  background-color: #fff;
+  padding: 25px; 
+  border-radius: 10px;
+  text-align: left;
+}
 
   .about-container, 
   .info-container, 
@@ -505,10 +525,17 @@ body {
 
 /* tablet hissesi */
 
-@media (max-width: 992px) and (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 992px) {
   .about, .course-info, .format {
     padding: 30px 20px;
   }
+
+.format-container {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 30px; */
+  flex-wrap: nowrap;
+}
 
   .about-container, 
   .info-container, 
@@ -552,11 +579,16 @@ body {
   .info-container > img {
     width: 134.37px;
   }
+
 }
 
 /* phone hissesi */
 
-@media (min-width:576px)and (max-width: 768px) {
+@media (min-width:576px) and (max-width: 768px) {
+
+ .col-md-4{
+  text-align: start;
+ }
   .about, .course-info, .format {
     padding: 20px 15px;
   }
@@ -583,6 +615,7 @@ body {
 
   .format-box h4 {
     font-size: 12px;
+  
   
   }
 
@@ -635,8 +668,10 @@ body {
 
   .format-box {
     width: 100%;
-    max-width: 100%;
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+   
+
   }
 }
 
